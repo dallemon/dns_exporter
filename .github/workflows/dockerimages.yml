@@ -9,6 +9,7 @@ on:  # yamllint disable-line rule:truthy
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
 
 env:
   DH_REPO: ${{ github.repository }}

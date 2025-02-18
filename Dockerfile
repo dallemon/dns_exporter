@@ -1,7 +1,7 @@
 #syntax=docker/dockerfile:1
 FROM python:3.13-alpine@sha256:323a717dc4a010fee21e3f1aac738ee10bb485de4e7593ce242b36ee48d6b352 AS builder
 # install dependenciess for building package
-RUN apk add -U -l -u bsd-compat-headers gcc git musl-dev openssl-dev
+RUN apk add -U -l -u bsd-compat-headers gcc git libffi-dev musl-dev openssl-dev
 # install dns_exporter
 RUN --mount=type=bind,readwrite,source=/,target=/src pip install --user /src
 # cleanup
