@@ -334,7 +334,7 @@ class Config:
 
     def validate_proxy(self) -> None:
         """Validate proxy."""
-        if self.proxy and self.protocol in ["dot"]:
+        if self.proxy and self.protocol == "dot":
             # proxy support doesn't work for DoT for now
             logger.error(
                 f"proxy not valid for protocol {self.protocol} see https://github.com/tykling/dns_exporter/issues/76"
