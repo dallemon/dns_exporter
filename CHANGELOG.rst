@@ -9,6 +9,14 @@ adheres to `Semantic
 Versioning <https://semver.org/spec/v2.0.0.html>`__.
 
 
+Unreleased
+----------
+
+Fixed
+~~~~~
+https://github.com/tykling/dns_exporter/pull/219/ Fixed listening on IPv6 addresses - thanks @lewellien !
+
+
 v1.2.2 - 2026-03-09
 -------------------
 
