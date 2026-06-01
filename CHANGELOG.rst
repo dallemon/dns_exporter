@@ -9,12 +9,12 @@ adheres to `Semantic
 Versioning <https://semver.org/spec/v2.0.0.html>`__.
 
 
-Unreleased
-----------
+v1.2.3 - 2026-06-01
+-------------------
 
 Fixed
 ~~~~~
-https://github.com/tykling/dns_exporter/pull/219/ Fixed listening on IPv6 addresses - thanks @lewellien !
+Fixed listening on IPv6 addresses - thanks @lewellien !  https://github.com/tykling/dns_exporter/pull/219/ 
 
 
 v1.2.2 - 2026-03-09
